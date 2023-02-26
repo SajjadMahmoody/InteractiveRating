@@ -26,6 +26,7 @@ body {
   font-weight: bold;
   transition: all 0.35s ease-out;
 }
+
 .btn-mode:hover {
   opacity: 80%;
   cursor: pointer;
@@ -46,18 +47,19 @@ body {
   margin-bottom: 1rem;
   background-color: #262f38;
 }
+
 .star-circle img {
   margin: 11px 2px;
   max-width: 100%;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 
 .box {
   background: linear-gradient(hsl(213deg, 19%, 18%), #19202a);
   padding: 2rem;
   width: min(390px, 100%);
-  height: min(370px, 100%);
+  height: min(380px, 100%);
   border-radius: 20px;
   box-shadow: 2px 2px 2px #262f38;
 }
@@ -111,6 +113,7 @@ body {
   margin-top: 0.8rem;
   transition: background-color 0.35s ease-in-out;
 }
+
 .btn-submit:hover {
   color: #fb7413;
   background-color: hsl(0deg, 0%, 100%);
@@ -125,9 +128,11 @@ body {
 .cong-text {
   text-align: center;
 }
+
 .cong-text h2 {
   margin-bottom: 1rem;
 }
+
 .cong-text p {
   color: hsl(216deg, 12%, 54%);
   line-height: 22px;
@@ -138,6 +143,7 @@ body {
   justify-content: center;
   margin-block: 1rem;
 }
+
 .rate p {
   text-align: center;
   padding-inline: 1rem;
@@ -163,7 +169,7 @@ body {
   outline: none;
 }
 
-@media only screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
   .container {
     display: flex;
     justify-content: center;
@@ -171,45 +177,59 @@ body {
     height: 100vh;
     height: 90vw;
   }
+
   .box {
     width: min(280px, 100%);
-    height: min(280px, 100%);
+    height: min(300px, 100%);
     padding-block: 1rem;
   }
+
   .star-circle {
     margin-bottom: 1rem;
   }
+
   .cicle-number {
     margin-bottom: 1rem;
   }
+
   .m-s h1 {
     font-size: 20px;
   }
+
   .m-s p {
     font-size: 11px;
   }
+
   .stars {
     margin-bottom: 0rem;
   }
+
   .cong-text {
     text-align: center;
   }
+
   .cong-text h2 {
     font-size: 20px;
     margin-bottom: 0;
   }
+
   .cong-text p {
     font-size: 11px;
   }
+
   .cicle-number {
     width: 30px;
     line-height: 30px;
     height: 30px;
   }
+
   .rate-img img {
     width: 120px;
   }
+
   .btn-submit {
     margin-top: 0.4rem;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
